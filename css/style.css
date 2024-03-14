@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Instagram";
+  src: url("/assets/fonts/instagram/Instagram.ttf");
+}
+
+/* General Styling */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.page-container {
+  width: 375px;
+  margin: 0 auto;
+  /* background-color: blue; */
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1,
+.app-title {
+  font-family: "Instagram";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.post-header-text p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* Images */
+.user-avatar {
+  width: 35px;
+  background-color: coral;
+  border-radius: 20px;
+}
+
+/* Buttons */
+.like-btn {
+  background: url(/assets/images/icon-heart.png);
+  background-size: cover;
+}
+
+.comment-btn {
+  background: url(/assets/images/icon-comment.png);
+  background-size: cover;
+}
+
+.share-btn {
+  background: url(/assets/images/icon-dm.png);
+  background-size: cover;
+}
+
+.post-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin: 0;
+  margin-top: 14px;
+  border: none;
+  background-color: transparent;
+  transition: all ease 0.1s;
+}
+
+.post-btn:hover,
+.post-btn:focus {
+  opacity: 0.5;
+}
+
+.post-btn:active {
+  opacity: 0.3;
+}
+
+/* Layout */
+.main-header {
+  border-bottom: 1.5px solid lightgray;
+}
+
+.main-header-container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header {
+  height: 60px;
+  padding-block: 15px;
+  display: flex;
+  align-items: end;
+}
+
+.post-header-text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-btn-container {
+  /* background-color: blue; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-body {
+  border-bottom: 1.5px solid lightgray;
+}
+
+.post-details-container {
+  margin-bottom: 25px;
+}
+
+.page-footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Utility */
+.bold {
+  font-weight: bold;
+}
